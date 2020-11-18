@@ -1,0 +1,15 @@
+﻿<Window x:Class="LoginDatabase.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoginDatabase"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="458.445" Width="800">
+    <Grid>
+        <DataGrid x:Name="dataGridView1" Margin="0,47,0,56"/>
+        <Label Content="Users" HorizontalAlignment="Left" VerticalAlignment="Top" Height="47" Width="792" FontSize="24"/>
+        <Button Click="Button_Click" Content="Refresh content" HorizontalAlignment="Left" Margin="263,391,0,0" VerticalAlignment="Top" Width="275"/>
+
+    </Grid>
+</Window>
